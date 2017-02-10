@@ -70,13 +70,15 @@ public String getHTMLTable(){
 		while(this.results.next()){
 			WaterQuality waterQuality = new WaterQuality();			 
 			waterQuality.setSampleDate(this.results.getString(1));
+			
 			System.out.println("Hello World!! " + this.results.getString(1));
+			System.out.println("Hello World222!! " + this.results.getString(2));
 			
 			table +="<tr>";
-/*			table +="<td>";
+			table +="<td>";
 				this.results.getString(1);				
 			table +="</td>";		
-			
+/*			
 			table +="<td>";
 			table += product.getSKU();
 			table +="</td>";
