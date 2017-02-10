@@ -33,6 +33,7 @@
 			<p>	<a href="read"><button id="buttonNav" type="button">Products</button></a></p>
 			<p>	<a href="viewData"><button id="buttonNav" type="button">View Watershed</button></a></p>
 			<p>	<a href="addData"><button id="buttonNav" type="button">Add Watershed</button></a></p>
+			<p>	<a href="updateData"><button id="buttonNav" type="button">Update Water Data</button></a></p>
 		</div>
 		
 		<div id="section">

@@ -66,7 +66,7 @@
     <div class="container">
 
       <div id="heading" class="page">
-        <h1> Add Water Quality Data </h1>
+        <h1> Update Water Quality Data </h1>
         <p>Faculty, staff and students have been collecting data on UGA's streams.Please use the below form to enter data to the database
          </p><br>
       </div>

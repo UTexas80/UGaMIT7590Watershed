@@ -44,7 +44,7 @@
 </thead>
 <tbody>  <c:forEach items="${WATERQUALITIES}" var="waterQuality" varStatus="loop">
     <tr>
-      <td><c:out value="${waterQuality.getSampleDate()}" /></td>
+      <td> <a href="http://www.w3schools.com"><c:out value="${waterQuality.getSampleDate()}" /></a> </td>
       <td><c:out value="${waterQuality.getSampledBy()}" /></td>
       <td><c:out value="${waterQuality.getSiteCondition()}" /></td>
       <td><c:out value="${waterQuality.getPH()}" /></td>
@@ -65,6 +65,9 @@
       <td><c:out value="${waterQuality.getZinc()}" /></td>
       <td><c:out value="${waterQuality.getSitename()}" /></td>
       <td><c:out value="${waterQuality.getSitepoint()}" /></td>
+      <td><button style="background-color:lightgreen" onclick="myFunction()">Update</button></td>
+      <td><a href="DeleteData"><button style="background-color:red" onclick="WaterQuality.getSampleDate()">Delete</button></a></td>
+
     </tr>
   </c:forEach></tbody>
 </table>
